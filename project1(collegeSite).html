@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <mebbbbbbbbbbbbbbbvta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poornima College of Engg.</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+    /*CSSRESET*/
+    body{
+        color:red;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background-image: url(https://cdn.wallpapersafari.com/32/32/HbsIBw.jpg);
+        background-size: cover; 
+        
+        background-repeat: no-repeat;
+    }
+
+    .left{
+        position: absolute;
+        left: 1px;
+        top: 20px; 
+        display: inline-block;
+        /* border: 1px solid green; */
+
+    }
+    .left img{
+        width: 250px;
+    }
+    .mid{
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+        /* border: 1px solid yellow; */
+    }
+    .right{
+        position: absolute;
+        right: 1px;
+        top: 20px;
+        display: inline-block;
+        /* border: 1px solid red; */
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 10px 10px;
+        font-size: 18px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: rgba(241, 0, 0, 0.897);
+    }
+    .btn{
+        margin: 0px 5px;
+        background-color: black;
+        color: white;
+        padding: 3px 14px;
+        border: 2px solid grey;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(105, 105, 105);
+    }
+    .container{
+        /* border: 1px solid yellow; */
+        margin: 100px 80px;
+        text-align: center;
+        padding: 75px;
+        width: 33%;
+    }
+    .formg input{
+        font-family: 'Courier New', Courier, monospace;
+
+        font-size: 18px;
+        border-radius: 20px;
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 11px;
+        border: 2px solid black;
+        margin: 3px auto;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+        border-radius: 20px;
+    }
+
+    </style>
+</head>
+<body>
+     <header class="header">
+        <!--left box for logo -->
+        <div class="left">
+            <img src="https://www.poornima.org/wp-content/uploads/2018/06/unnamed.png" alt="connect internet">
+            <!-- <img src="https://images.collegedunia.com/public/college_data/images/logos/1561376243LO.png?h=80&w=80&mode=stretch" alt=""> -->
+
+        </div>
+        <!-- mid box for navigation bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Courses Offered</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Apply Now</button>
+            <button class="btn">Ask Query</button>
+
+        </div>
+
+     </header>
+     <div class="container">
+        <h1>Enroll for more information</h1>
+        <form action="noaction.php">
+            <div class="formg">
+                <input type="text" placeholder="Enter your full name: ">
+            </div>
+            <div class="formg">
+                <input type="text" placeholder="Enter your e-mail: ">
+            </div>
+            <div class="formg">
+                <input type="text" placeholder="Enter your mobile number: ">
+            </div>
+            <div class="formg">
+                <input type="text" placeholder="Enter your Gender: ">
+            </div>
+            <button class="btn">Submit now</button>
+        </form>
+
+     </div>
+</body>
+</html>
